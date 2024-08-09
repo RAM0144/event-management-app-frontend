@@ -1,0 +1,31 @@
+[
+    {
+      "name": "Elegant Kalyana Mandapam",
+      "sku": "12",
+      "images": "https://th.bing.com/th/id/OIP.R2E5bJLxwoiWeTR-AijX9QHaE7?rs=1&pid=ImgDetMain",
+      "description": "A beautiful venue for weddings with modern amenities and a spacious hall is a wedding banquet hall which is located in the city of Banglore. The venue is modern, spacious and fully equipped with all the basic facilities and services. Weddings are grand occasions in a person's life and choosing the right venue becomes the most important and primary..",
+      "price": "₹50,000"
+    },
+    {
+      "name": "Grand Royal Mandapam",
+      "sku": "22",
+      "images": "https://cdn0.weddingwire.in/vendor/8155/3_2/960/png/1501066563_15_188155.webp",
+      "description": "An elegant and luxurious wedding venue with top-notch facilities and services is a wedding setting situated in the city of e. The setting offers extravagant events spaces going from feast lobbies to yards to have all your wedding functions reaching out from pre-wedding to post-wedding. The scene holds both indoor and open-air spaces to commend all..",
+      "price": "₹75,000"
+    },
+    {
+      "name": "Classic Wedding Hall",
+      "sku": "33",
+      "images": "https://cdn0.weddingwire.in/vendor/3409/3_2/960/png/colourful_v1.webp",
+      "description": "A traditional wedding hall with a touch of modern design and excellent amenities is a wedding venue based out of Chennai. The onsite staff will handle the setup and takedown of your tent rentals, giving you time to focus on the important things and will assist you throughout your wedding functions until the last ritual. They offer a great range of wedding..",
+      "price": "₹60,000"
+    },
+    {
+      "name": "Majestic Kalyana Mandapam",
+      "sku": "44",
+      "images": "https://cdn0.weddingwire.in/vendor/0200/3_2/960/jpg/weddingvenues-amita-rasa-eventspace-2_15_430200-166849155831730.webp",
+      "description": "A grand venue with beautiful interiors and state-of-the-art facilities  is a great and dynamic venue based in the city of Bangalore that has offered friendly and welcoming hospitality at reasonable prices for all the couples. Picking a venue that will cater to your wedding function is a must for every couple and hence if you are looking for a..",
+      "price": "₹80,000"
+    }
+  ]
+  

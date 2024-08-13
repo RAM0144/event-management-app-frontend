@@ -34,7 +34,6 @@ const Caterers = lazy(() => import("./components/wedding-vendors/Caterers"));
 const Makeup = lazy(() => import("./components/brides/MakeupArtists"));
 const Mehndi = lazy(() => import("./components/brides/MehndiArtists"));
 const Jewellery = lazy(() => import("./components/brides/Jewellery"));
-const EventInfo = lazy(() => import("./pages/EventInfo"));
 const Cart = lazy(() => import("./pages/Cart"));
 
 
@@ -74,7 +73,6 @@ function App() {
               <Route path="/jewellerys" element={<ProtectedComponent component={<Jewellery />} />} />
               <Route path="/cart" element={<ProtectedComponent component={<Cart />} />} />
               <Route path="/bookingSuccess" element={<ProtectedComponent component={<BookingSuccess />} />} />
-              <Route path="/bookings" element={<ProtectedComponent component={<EventInfo />} />} />
             </Route>
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />

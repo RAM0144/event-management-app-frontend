@@ -1,6 +1,7 @@
 import { useState } from "react"
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { handledAPIPost } from "../APIs/APIs";
+
 
 const initialState = {
   name: "",
@@ -12,6 +13,8 @@ const initialState = {
 };
 
 const Register = () => {
+
+  const navigate = useNavigate();
 
   const [formData, setFormData] = useState(initialState);
 
@@ -31,8 +34,9 @@ const Register = () => {
     } catch (error) {
       alert(error.message);
     }
-
+     navigate("/login")
     setFormData(initialState);
+    
   };
 
 

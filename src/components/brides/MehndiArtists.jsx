@@ -55,8 +55,8 @@ const Mehndi = () => {
           </div>
           </div>
         )}
-       {events.map((mehndi) => (
-         <EventBooking key={mehndi} {...mehndi} />
+       {events.map((mehndis) => (
+         <EventBooking key={mehndis} {...mehndis} />
        )) }
      </div>
    )

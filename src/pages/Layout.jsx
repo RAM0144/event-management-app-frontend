@@ -7,7 +7,7 @@ const CartLink = () => {
   const { bookings } = useSelector((state) => state.cart);
 
   const { userInfo } = useSelector((state) => state.account);
- 
+
   if (userInfo.userType === "seller") {
     return "";
   }
@@ -69,17 +69,17 @@ const Layout = () => {
             </li>
           </div>
         </div>
-       <div style={{display: "flex", alignItems: "center", float: "left"}}>
-       <CartLink />
-        <i
-              tabIndex={0}
-              className="fa-solid fa-right-from-bracket fa-2x mx-3"
-              onClick={handleLogout}
-              style={{
-                cursor: "pointer",
-              }}
-            ></i>
-       </div>
+        <div style={{ display: "flex", alignItems: "center", float: "left" }}>
+          <CartLink />
+          <i
+            tabIndex={0}
+            className="fa-solid fa-right-from-bracket fa-2x mx-3"
+            onClick={handleLogout}
+            style={{
+              cursor: "pointer",
+            }}
+          ></i>
+        </div>
         <div >
         </div>
       </header>

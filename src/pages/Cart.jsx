@@ -35,17 +35,17 @@ const Cart = () => {
     const stripe = await loadStripe(import.meta.env.VITE_STRIPE_PUB_KEY);
 
     const response = await instance.post("/payment/get-payment-session" , {
-       bookings: cart.bookings,
-    });
-    const {id} = response.data;
-    const result = await stripe.redirectToCheckout({
-      sessionId : id,
-    });
+      bookings: cart.bookings,
+   });
+   const {id} = response.data;
+   const result = await stripe.redirectToCheckout({
+     sessionId : id,
+   });
 
-    if(result.error) {
-      console.log(result.error);
-    }
-  }
+   if(result.error) {
+     console.log(result.error);
+   }
+ }
 
   if (loading){
     return <Loder />
@@ -69,7 +69,7 @@ const Cart = () => {
         <div style={{ display: "flex", flexDirection: "column", alignItems: "end" }}
         >
           <h4>Grand Total: ${cart.bookings.reduce((p, c) => p + c.price,0)}</h4>
-          <button onClick={processBoking} className="btn btn-primary">Request pricing</button>
+          <button onClick={processBoking} className="btn btn-primary">Book Now</button>
         </div>
       )}
 

@@ -33,7 +33,7 @@ CartItem.propTypes = {
   images: PropTypes.arrayOf(PropTypes.string).isRequired,
   price: PropTypes.number.isRequired,
   description: PropTypes.string.isRequired,
-  animDelay: PropTypes.number.isRequired,
+  animDelay: PropTypes.number,
 };
 
 export default CartItem;

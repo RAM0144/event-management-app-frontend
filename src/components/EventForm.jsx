@@ -26,7 +26,7 @@ const EventForm = () => {
         ...formData,
         images: formData.images.split(",").map((img) => img.trim()),
       };
-      // all component API post to this this form
+      // all component API post to this common form
     await handledAPIPost("/events",eventData);
 
      setFormData({

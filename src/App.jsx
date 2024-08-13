@@ -62,7 +62,7 @@ function App() {
       <Provider store={store}>
         <Router>
           <Routes>
-            <Route path='/' element={<Layout />}>
+            <Route path="/" element={<ProtectedComponent component={<Layout />} />}>
               <Route path="/wedding-venue" element={<ProtectedComponent component={<Mandapam />} />} />
               <Route path="/wedding-resorts" element={<ProtectedComponent component={<Resorts />} />} />
               <Route path="/hotels" element={<ProtectedComponent component={<Hotels />} />} />

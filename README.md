@@ -1,8 +1,46 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Event Management Application
 
-Currently, two official plugins are available:
+DB Design:
+  objects:
+   events:
+    name
+    venue
+    images
+    description
+    price
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    cart:
+     cart_id
+     events
+     price
+     subtotal
+     grandtotal
+
+    Users:
+     name
+     userId
+     phone
+     email
+     address
+     userType: seller | customer
+
+Front End:
+1.Normal customer:
+   customer can view all events like wedding mahal and resots and photography somthing and add to cart then book the events but customer doesnot create a any new events and edit or delete 
+2.Seller:
+   seller only can create a new events and modify  
+
+Back End:
+   API 
+1.Users:
+   Register
+   Login   
+2.Events:
+   Create and display all the events details with images.
+
+DB- mongoDb Cloud:
+  store the all data.   
+   
+    

@@ -34,7 +34,7 @@ const Layout = () => {
         <div className="container d-flex justify-content-between align-items-center">
           <h1 className="h3" style={{ color: "red" }}>WEDDING.in</h1>
           <nav className="d-flex align-items-center">
-            <div className="nav-link">Wedding Venues
+            <div className="nav">Wedding Venues
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
                 <ul className="dropdown-menu">
@@ -47,7 +47,7 @@ const Layout = () => {
 
           </nav>
 
-          <div className="nav-link">Wedding Vendors
+          <div className="nav">Wedding Vendors
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
               <ul className="dropdown-menu">
@@ -58,7 +58,7 @@ const Layout = () => {
             </li>
           </div>
 
-          <div className="nav-link">Brides
+          <div className="nav">Brides
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
               <ul className="dropdown-menu">

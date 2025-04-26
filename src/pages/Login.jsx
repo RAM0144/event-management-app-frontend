@@ -43,7 +43,8 @@ const Login = () => {
 
   return (
 
-    <div className="d-flex justify-content-center align-items-center vh-100 ">
+    <div className="">
+      <div className="d-flex justify-content-center align-items-center vh-100 ">
       <form className="p-4 border rounded" onSubmit={handleSubmit}>
         <h2 className="mb-4">Login</h2>
         <div className="form-group">
@@ -76,6 +77,7 @@ const Login = () => {
           <Link to="/register">Register here</Link>
         </p>
       </form>
+    </div>
     </div>
   );
 };
